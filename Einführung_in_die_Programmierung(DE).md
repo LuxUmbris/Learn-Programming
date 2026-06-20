@@ -15,8 +15,10 @@ Dies ist eine grundlegende Einführung in die Programmierung.
    2.4 [Die Standardbibliothek](#die-standardbibliothek) \
    2.5 [Bedingungen und Kontrollfluss](#bedingungen-und-kontrollfluss) \
    2.6 [Strings in Python](#strings-in-python)
-3. [Andere Programmiersprachen](#andere-programmiersprachen)
-4. [Einstieg in die Systemprogrammierung](#einstieg-in-die-systemprogrammierung)
+3. [Einstieg in die Systemprogrammierung](#einstieg-in-die-systemprogrammierung) \
+   3.1 [Speicherverwaltung](#speicherverwaltung)
+   3.2 [Die statische Typisierung](#die-statische-typisierung)
+4. [Andere Programmiersprachen](#andere-programmiersprachen)
 
 ---
 
@@ -96,7 +98,7 @@ Datentypen sind ein fundamentaler Bestandteil der Programmierung. Hier ist eine 
 ---
 
 ### Funktionen
-Funktionen ist praktisch, um Code übersichtlich zu halten und Wiederholungen zu vermeiden. Beispiel:
+Funktionen sind praktisch, um Code übersichtlich zu halten und Wiederholungen zu vermeiden. Beispiel:
 
 ```text
 Funktion addiere x und y:
@@ -421,7 +423,7 @@ Vor- und Nachteile im Vergleich:
 
 ---
 
-### Speichermanagement
+### Speicherverwaltung
 Wenn du eine Variable definierst, verbrauchst du damit physischen Platz auf deiner CPU (Zentralen Recheneinheit) oder im RAM (Arbeitsspeicher). In Hochsprachen wie Python wird dafür oft ein sogenannter GC (Garbage-Collector / "Müllsammler") genutzt. Dieser pausiert die komplette Ausführung des Programms und gibt ungenutzten Speicherplatz wieder frei. Dies kostet jedoch wertvolle Ausführungszeit. Deswegen gibt es Sprachen mit manueller Speicherverwaltung. Diese ist allerdings extrem fehleranfällig. Wieder andere Sprachen geben Variablen immer automatisch am Ende von Scopes frei.
 
 ---
