@@ -300,8 +300,8 @@ Kurze Übersicht der booleschen Operatoren (True/False Operatoren):
 * `and` True, wenn die linke UND die rechte Bedingung True sind
 * `in` True, wenn der linke Wert im rechten Datentopf vorhanden ist
 
-> WICHTIG: Der vergleichsoperator `==` ist NICHT das selbe wie `is`. Du kannst dir das so vorstellen:
-> Du hast eine Katze. Diese klonst du. Jetzt hast du zwar zwei identische Katzen, aber sie sind nicht die selbe Katze. Ein `==` würde hier sagen, dass ist `True`, weil die Katzen identisch sind. `is` würde sagen es ist `False`, weil es nicht die selbe Katze ist. Jetzt Fragst du dich:
+> WICHTIG: Der Vergleichsoperator `==` ist NICHT das selbe wie `is`. Du kannst dir das so vorstellen:
+> Du hast eine Katze. Diese klonst du. Jetzt hast du zwar zwei identische Katzen, aber sie sind nicht die selbe Katze. Ein `==` würde hier sagen, dass ist `True`, weil die Katzen identisch sind. `is` würde sagen es ist `False`, weil es nicht die selbe Katze ist. Jetzt fragst du dich:
 > Gut, aber wozu brauche ich das jetzt, ich weiß doch dass x eben x ist!
 > Ja, das stimmt. Aber: In Python sind Werte wie None, True und False eben keine Werte, sondern Objekte. Bei ihnen solltest du immer `is` nutzen, denn wenn etwas `True` ist, dann verweist es eigentlich nur auf das Objekt namens `True`.
 
